@@ -126,9 +126,10 @@ project-root/
 - Format gambar yang didukung: PNG, JPG, JPEG.
 
 ## Preview Halaman website
-# Preview Website Inventaris CYB
-
 Berikut adalah tampilan website Inventaris CYB:
 
-### Dashboard
+### Dashboard Data Barang
 ![Dashboard Preview Data Barang](assets/preview-website/data-barang.png)
+---
+
+
