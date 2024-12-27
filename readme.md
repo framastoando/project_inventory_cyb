@@ -129,7 +129,7 @@ project-root/
 Berikut adalah tampilan website Inventaris CYB:
 
 ### Halaman Login
-![Dashboard Preview](assets/login.png)
+![Dashboard Preview](assets/preview-website/login.png)
 ---
 ### Dashboard Data Barang
 ![Dashboard Preview Data Barang](assets/preview-website/data-barang.png)
