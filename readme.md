@@ -128,8 +128,29 @@ project-root/
 ## Preview Halaman website
 Berikut adalah tampilan website Inventaris CYB:
 
+### Halaman Login
+![Dashboard Preview](assets/login.png)
+---
 ### Dashboard Data Barang
 ![Dashboard Preview Data Barang](assets/preview-website/data-barang.png)
+---
+### Halaman Barang Masuk
+![Dashboard Preview](assets/data-barang-masuk.png)
+---
+### Halaman Barang Keluar 
+![Dashboard Preview](assets/data-barang-keluar.png)
+---
+### Halaman Manajemen Admin
+![Dashboard Preview](assets/manajemen-admin.png)
+---
+### Halaman Detail Barang
+![Dashboard Preview](assets/detail-barang.png)
+---
+### Fitur Tambah Barang
+![Dashboard Preview](assets/tambah-barang.png)
+---
+### Contoh Export
+![Dashboard Preview](assets/hasil-export.png)
 ---
 
 
