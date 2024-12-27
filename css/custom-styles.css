@@ -1,0 +1,22 @@
+.sb-topnav.navbar {
+    background-color: #E55357 !important;
+}
+
+.input-container {
+    position: relative;
+    width: 100%; /* Sesuaikan dengan kebutuhan */
+}
+
+.input-container input {
+    width: 100%;
+    padding-right: 2.5rem; /* Berikan ruang untuk ikon */
+}
+
+.input-container i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.2rem; /* Sesuaikan ukuran ikon */
+    color: #888; /* Warna ikon */
+}

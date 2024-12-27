@@ -1,0 +1,27 @@
+# Mengaktifkan mod_rewrite
+RewriteEngine On
+
+# Redirect HTTP ke HTTPS
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Menyembunyikan ekstensi .php
+Options +MultiViews
+RewriteCond %{THE_REQUEST} /([^.]+)\.php [NC]
+RewriteRule ^ /%1 [NC,L,R]
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^ %{REQUEST_URI}.php [NC,L]
+
+# Menonaktifkan directory listing
+Options -Indexes
+
+# Menambahkan beberapa pengaturan PHP
+php_value display_errors Off
+php_value date.timezone Asia/Jakarta
+
+# Redirect dari index.php ke /data-barang secara otomatis
+RewriteCond %{THE_REQUEST} /index\.php [NC]
+RewriteRule ^index\.php$ /data-barang [L,R=301]
+
+# Penanganan internal untuk /data-barang menuju index.php
+RewriteRule ^data-barang/?$ index.php [L]
