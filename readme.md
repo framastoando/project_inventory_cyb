@@ -124,3 +124,7 @@ project-root/
 - Pastikan koneksi database sudah sesuai.
 - Ukuran file gambar barang dibatasi maksimal 5 MB.
 - Format gambar yang didukung: PNG, JPG, JPEG.
+
+
+## Preview Website
+![Dashboard Preview](https://imgur.com/oQ3OiYn)
