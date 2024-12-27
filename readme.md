@@ -125,6 +125,10 @@ project-root/
 - Ukuran file gambar barang dibatasi maksimal 5 MB.
 - Format gambar yang didukung: PNG, JPG, JPEG.
 
+## Preview Halaman website
+# Preview Website Inventaris CYB
 
-## Preview Website
-![Dashboard Preview](https://imgur.com/oQ3OiYn)
+Berikut adalah tampilan website Inventaris CYB:
+
+### Dashboard
+![Dashboard Preview Data Barang](assets/preview_website/data barang.png)
