@@ -9,8 +9,9 @@ Sebuah proyek aplikasi berbasis web untuk sistem inventaris barang  di PT CYB Me
    - Menyimpan barcode untuk setiap barang.
 
 2. **Barang Masuk dan Keluar**
-   - Menambah catatan barang masuk dan keluar.
+   - Menambah keterangan barang masuk dan keluar.
    - Sinkronisasi otomatis antara input barcode dan dropdown barang.
+   - Jumlah data barang akan otomatis ditambah/dikurangi jika ada barang masuk atau keluar.
 
 3. **Sinkronisasi Barcode**
    - Input barcode otomatis memilih barang terkait di dropdown.
@@ -18,9 +19,10 @@ Sebuah proyek aplikasi berbasis web untuk sistem inventaris barang  di PT CYB Me
 
 4. **Scan Barcode**
    - Mendukung pemindaian barcode menggunakan kamera perangkat (khusus smartphone).
+   - Metode untuk pengenalan barcode mengecualikan 4 digit terakhir kode barcode.
 
 5. **Manajemen Admin**
-   - Tambah dan hapus pengguna admin.
+   - Tambah, edit, dan hapus pengguna admin.
 
 6. **Feedback Pengguna**
    - Menampilkan pesan jika barcode tidak ditemukan.
@@ -32,7 +34,7 @@ Sebuah proyek aplikasi berbasis web untuk sistem inventaris barang  di PT CYB Me
    - Export data ke dalam format lain seperti text only, csv, excel, pdf.
 
 8. **Generate QrCode**
-   - Fitur untuk generate QrCode dari pdf yang dicetak di halaman detail barang, bisa digunakan untuk validasi data tanpa login ke sistem
+   - Fitur untuk generate QrCode di halaman detail barang yang nantinya dicetak ke dokumen pdf, bisa digunakan untuk validasi data tanpa login ke sistem
 
 ## Teknologi yang Digunakan
 
