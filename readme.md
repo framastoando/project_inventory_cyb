@@ -149,7 +149,7 @@ Berikut adalah tampilan website Inventaris CYB:
 ### Fitur Tambah Barang
 ![Dashboard Preview](assets/preview-website/tambah-barang.png)
 ---
-### Contoh Export
+### Contoh Export Dokumen ke Bentuk PDF
 ![Dashboard Preview](assets/preview-website/hasil-export.png)
 ---
 
