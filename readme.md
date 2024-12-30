@@ -41,6 +41,8 @@ Sebuah proyek aplikasi berbasis web untuk sistem inventaris barang  di PT CYB Me
 - **Frontend**: HTML, CSS (dengan Bootstrap untuk beberapa komponen), JavaScript.
 - **Backend**: PHP Native.
 - **Database**: MySQL.
+- **Library**:FPDF (Untuk export data ke bentuk pdf menggunakan php)
+- **API**:quickchart.io (untuk generate qrcode)
 
 ## Struktur Direktori
 
